@@ -1,8 +1,7 @@
 .App {
-  text-align: center;
-  display: flex;
-  justify-content: space-evenly;
+  /* text-align: center; */
 }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -37,10 +36,36 @@
     transform: rotate(360deg);
   }
 }
-.Header-content{
-  color: #61dafb;
+
+.card{
+  width: 300px; 
   
 }
-.Footer-content{
-  color:chocolate;
+.container{
+  width: 70%;
+  margin-left: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.Service-title{
+  margin-left: 10%;
+}
+.Card-Image{
+  width:100%;
+  overflow: hidden;
+}
+.Card-Title,.Button-Parent,.Card-Description,.Card-SubTitle{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.Card-SubTitle{
+  color:forestgreen;
+}
+.Card-Button{
+  padding: 15px 30px;
+  color: darkred;
+}
+.card-img{
+  width: 100%;
 }
